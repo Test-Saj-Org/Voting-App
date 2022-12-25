@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  vote:
+    image: sajidaz1994.azurecr.io/voting-app
+    build: ./vote
+
+  worker:
+    image: sajidaz1994.azurecr.io/worker-app
+    build: ./worker
+
+  result:
+    image: sajidaz1994.azurecr.io/result-app
+    build: ./result
