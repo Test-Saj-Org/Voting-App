@@ -1,6 +1,9 @@
 [![Board Status](https://dev.azure.com/Boards-Test-Org/88f7d7d5-1c8a-4939-93b4-5377aae23c00/6e345b72-8d17-47e4-8d64-caf3d13ca602/_apis/work/boardbadge/ca29a7d5-a0d3-4f35-b571-2e5ed24fea8e)](https://dev.azure.com/Boards-Test-Org/88f7d7d5-1c8a-4939-93b4-5377aae23c00/_boards/board/t/6e345b72-8d17-47e4-8d64-caf3d13ca602/Microsoft.RequirementCategory/)
 
 
+
+[![Build status](https://dev.azure.com/sajid-test-org/Github-Enterprice-Test/_apis/build/status/Github-VotingAPP-CI)](https://dev.azure.com/sajid-test-org/Github-Enterprice-Test/_build/latest?definitionId=43)
+
 Example Voting App
 =========
 
