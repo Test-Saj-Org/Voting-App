@@ -30,7 +30,7 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
   addon_profile {
     oms_agent {
       enabled                    = var.addons.oms_agent
-      log_analytics_workspace_id = data.azurerm_log_analytics_workspace.Log_Analytics_Space.id
+      log_analytics_workspace_id = azurerm_log_analytics_workspace.Log_Analytics_Space.id
     }
 
     ingress_application_gateway {

@@ -33,8 +33,3 @@ data "azurerm_subnet" "appgw_subnet_id" {
   virtual_network_name = "${azurerm_virtual_network.aks_vnet.name}"
   resource_group_name  = "${azurerm_resource_group.aks_rg.name}"
   }
-
-data "azurerm_log_analytics_workspace" "Log_Analytics_Space" {
-  name                = var.logan_name
-  resource_group_name = "${azurerm_resource_group.aks_rg.name}"
-}
