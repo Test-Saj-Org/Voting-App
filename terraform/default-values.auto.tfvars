@@ -9,11 +9,11 @@ spnkvsecret = "aks-spn-secret"
 
 win_kv_secret = "winNodePasswd"
 
-vnetcidr = ["10.0.0.0/24"]
+vnetcidr = ["10.0.0.0/16"]
 
-subnetcidr = ["10.0.0.0/27"]
+subnetcidr = ["10.0.0.0/24"]
 
-appgwsubnetcidr = ["10.0.0.31/27"]
+appgwsubnetcidr = ["10.0.1.0/24"]
 
 keyvault_rg = "vault-group"
 
